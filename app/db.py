@@ -8,6 +8,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 load_dotenv()
 
 
+
 # PostgreSQL database connection URL
 URL = os.getenv("DATABASE_URL")
 
